@@ -13,3 +13,7 @@ get '/play/:first/:second' do
   @result = game.gameplay
   erb(:index)
 end
+
+get '/play/welcome' do
+  erb(:welcome)
+end
