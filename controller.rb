@@ -5,7 +5,7 @@ require('pry-byebug')
 require_relative('./models/rock_paper_scissors_engine')
 
 get '/' do
-  erb(:index)
+  erb(:welcome)
 end
 
 get '/play/:first/:second' do
